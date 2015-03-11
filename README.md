@@ -10,7 +10,7 @@ Magic is here :")
 
 ### Use
 
-HPFastTouchButton has the same protocols with UIButton in UIKit.
+HPFastTouchButtonObjC has the same protocols with UIButton in UIKit.
 
 ## Contact
 
