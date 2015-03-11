@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "Huy Pham" => "duchuykun@gmail.com" }
   s.social_media_url   = "https://facebook.com/huyphams"
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "6.0"
   s.source       = { :git => "https://github.com/huyphams/HPFastTouchButtonObjC.git", :tag => "#{s.version}" }
   s.source_files = 'Classes/*.{h,m}'
   s.requires_arc = true
