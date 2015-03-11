@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HPFastTouchButtonObjC"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "Resolve problem Passing touch info from button to super view"
   s.homepage     = "http://facebook.com/huyphams"
   s.license      = "MIT"
