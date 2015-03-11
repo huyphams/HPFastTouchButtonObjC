@@ -1,11 +1,11 @@
-# HPFastTouchButton
+# HPFastTouchButtonObjC
 Resolve problem "Passing touch info from button to super view".
 
-[![Build Status](https://travis-ci.org/huyphams/HPFastTouchButton.svg)](https://travis-ci.org/huyphams/HPFastTouchButton)
+[![Build Status](https://travis-ci.org/huyphams/HPFastTouchButtonObjC.svg)](https://travis-ci.org/huyphams/HPFastTouchButtonObjC)
 
 For example:
 
-With button in UIKit you can't scroll the scrollbar(scroll view, table view, collection view) after button receive pan gesture. By replacing the original button with HPFastTouchButton, the problem will be solved.
+With button in UIKit you can't scroll the scrollbar(scroll view, table view, collection view) after button receive pan gesture. By replacing the original button with HPFastTouchButtonObjC, the problem will be solved.
 Magic is here :")
 
 ### Use
@@ -16,7 +16,7 @@ HPFastTouchButton has the same protocols with UIButton in UIKit.
 
 - [@duchuykun@gmail.com](http://facebook.com/huyphams)
 
-If you use/enjoy `HPFastTouchButton`, let me know!
+If you use/enjoy `HPFastTouchButtonObjC`, let me know!
 
 ## License
 
