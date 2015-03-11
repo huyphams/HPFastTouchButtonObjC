@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11A6D6C71AAF6523001B8CD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A6D6C61AAF6523001B8CD4 /* main.m */; };
+		11A6D6CA1AAF6523001B8CD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A6D6C91AAF6523001B8CD4 /* AppDelegate.m */; };
+		11A6D6CD1AAF6523001B8CD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A6D6CC1AAF6523001B8CD4 /* ViewController.m */; };
+		11A6D6D21AAF6523001B8CD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A6D6D11AAF6523001B8CD4 /* Images.xcassets */; };
+		11A6D6E11AAF6524001B8CD4 /* HPFastTouchButtonObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A6D6E01AAF6524001B8CD4 /* HPFastTouchButtonObjCTests.m */; };
+		11A6D6ED1AAF6591001B8CD4 /* HPFastTouchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A6D6EC1AAF6591001B8CD4 /* HPFastTouchButton.m */; };
+		11F438171AAFF2F700EF61A1 /* bell@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F438151AAFF2F700EF61A1 /* bell@3x.png */; };
+		11F438181AAFF2F700EF61A1 /* camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F438161AAFF2F700EF61A1 /* camera@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11A6D6DB1AAF6524001B8CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A6D6B91AAF6523001B8CD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A6D6C01AAF6523001B8CD4;
+			remoteInfo = HPFastTouchButtonObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11A6D6C11AAF6523001B8CD4 /* HPFastTouchButtonObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPFastTouchButtonObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A6D6C51AAF6523001B8CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A6D6C61AAF6523001B8CD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11A6D6C81AAF6523001B8CD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11A6D6C91AAF6523001B8CD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11A6D6CB1AAF6523001B8CD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11A6D6CC1AAF6523001B8CD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11A6D6D11AAF6523001B8CD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11A6D6DA1AAF6524001B8CD4 /* HPFastTouchButtonObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPFastTouchButtonObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A6D6DF1AAF6524001B8CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A6D6E01AAF6524001B8CD4 /* HPFastTouchButtonObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPFastTouchButtonObjCTests.m; sourceTree = "<group>"; };
+		11A6D6EB1AAF6591001B8CD4 /* HPFastTouchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPFastTouchButton.h; path = Classes/HPFastTouchButton.h; sourceTree = "<group>"; };
+		11A6D6EC1AAF6591001B8CD4 /* HPFastTouchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPFastTouchButton.m; path = Classes/HPFastTouchButton.m; sourceTree = "<group>"; };
+		11F438151AAFF2F700EF61A1 /* bell@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bell@3x.png"; sourceTree = "<group>"; };
+		11F438161AAFF2F700EF61A1 /* camera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11A6D6BE1AAF6523001B8CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A6D6D71AAF6524001B8CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A6D6B81AAF6523001B8CD4 = {
+			isa = PBXGroup;
+			children = (
+				11F438191AAFF2FA00EF61A1 /* Resources */,
+				11A6D6EA1AAF6562001B8CD4 /* Classes */,
+				11A6D6C31AAF6523001B8CD4 /* HPFastTouchButtonObjC */,
+				11A6D6DD1AAF6524001B8CD4 /* HPFastTouchButtonObjCTests */,
+				11A6D6C21AAF6523001B8CD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11A6D6C21AAF6523001B8CD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11A6D6C11AAF6523001B8CD4 /* HPFastTouchButtonObjC.app */,
+				11A6D6DA1AAF6524001B8CD4 /* HPFastTouchButtonObjCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11A6D6C31AAF6523001B8CD4 /* HPFastTouchButtonObjC */ = {
+			isa = PBXGroup;
+			children = (
+				11A6D6C81AAF6523001B8CD4 /* AppDelegate.h */,
+				11A6D6C91AAF6523001B8CD4 /* AppDelegate.m */,
+				11A6D6CB1AAF6523001B8CD4 /* ViewController.h */,
+				11A6D6CC1AAF6523001B8CD4 /* ViewController.m */,
+				11A6D6D11AAF6523001B8CD4 /* Images.xcassets */,
+				11A6D6C41AAF6523001B8CD4 /* Supporting Files */,
+			);
+			path = HPFastTouchButtonObjC;
+			sourceTree = "<group>";
+		};
+		11A6D6C41AAF6523001B8CD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11A6D6C51AAF6523001B8CD4 /* Info.plist */,
+				11A6D6C61AAF6523001B8CD4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11A6D6DD1AAF6524001B8CD4 /* HPFastTouchButtonObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				11A6D6E01AAF6524001B8CD4 /* HPFastTouchButtonObjCTests.m */,
+				11A6D6DE1AAF6524001B8CD4 /* Supporting Files */,
+			);
+			path = HPFastTouchButtonObjCTests;
+			sourceTree = "<group>";
+		};
+		11A6D6DE1AAF6524001B8CD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11A6D6DF1AAF6524001B8CD4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11A6D6EA1AAF6562001B8CD4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				11A6D6EB1AAF6591001B8CD4 /* HPFastTouchButton.h */,
+				11A6D6EC1AAF6591001B8CD4 /* HPFastTouchButton.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		11F438191AAFF2FA00EF61A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11F438151AAFF2F700EF61A1 /* bell@3x.png */,
+				11F438161AAFF2F700EF61A1 /* camera@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11A6D6C01AAF6523001B8CD4 /* HPFastTouchButtonObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A6D6E41AAF6524001B8CD4 /* Build configuration list for PBXNativeTarget "HPFastTouchButtonObjC" */;
+			buildPhases = (
+				11A6D6BD1AAF6523001B8CD4 /* Sources */,
+				11A6D6BE1AAF6523001B8CD4 /* Frameworks */,
+				11A6D6BF1AAF6523001B8CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPFastTouchButtonObjC;
+			productName = HPFastTouchButtonObjC;
+			productReference = 11A6D6C11AAF6523001B8CD4 /* HPFastTouchButtonObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11A6D6D91AAF6524001B8CD4 /* HPFastTouchButtonObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A6D6E71AAF6524001B8CD4 /* Build configuration list for PBXNativeTarget "HPFastTouchButtonObjCTests" */;
+			buildPhases = (
+				11A6D6D61AAF6524001B8CD4 /* Sources */,
+				11A6D6D71AAF6524001B8CD4 /* Frameworks */,
+				11A6D6D81AAF6524001B8CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A6D6DC1AAF6524001B8CD4 /* PBXTargetDependency */,
+			);
+			name = HPFastTouchButtonObjCTests;
+			productName = HPFastTouchButtonObjCTests;
+			productReference = 11A6D6DA1AAF6524001B8CD4 /* HPFastTouchButtonObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11A6D6B91AAF6523001B8CD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = CoreDump;
+				TargetAttributes = {
+					11A6D6C01AAF6523001B8CD4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					11A6D6D91AAF6524001B8CD4 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 11A6D6C01AAF6523001B8CD4;
+					};
+				};
+			};
+			buildConfigurationList = 11A6D6BC1AAF6523001B8CD4 /* Build configuration list for PBXProject "HPFastTouchButtonObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11A6D6B81AAF6523001B8CD4;
+			productRefGroup = 11A6D6C21AAF6523001B8CD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11A6D6C01AAF6523001B8CD4 /* HPFastTouchButtonObjC */,
+				11A6D6D91AAF6524001B8CD4 /* HPFastTouchButtonObjCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11A6D6BF1AAF6523001B8CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F438171AAFF2F700EF61A1 /* bell@3x.png in Resources */,
+				11A6D6D21AAF6523001B8CD4 /* Images.xcassets in Resources */,
+				11F438181AAFF2F700EF61A1 /* camera@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A6D6D81AAF6524001B8CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A6D6BD1AAF6523001B8CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A6D6CD1AAF6523001B8CD4 /* ViewController.m in Sources */,
+				11A6D6CA1AAF6523001B8CD4 /* AppDelegate.m in Sources */,
+				11A6D6C71AAF6523001B8CD4 /* main.m in Sources */,
+				11A6D6ED1AAF6591001B8CD4 /* HPFastTouchButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A6D6D61AAF6524001B8CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A6D6E11AAF6524001B8CD4 /* HPFastTouchButtonObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11A6D6DC1AAF6524001B8CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A6D6C01AAF6523001B8CD4 /* HPFastTouchButtonObjC */;
+			targetProxy = 11A6D6DB1AAF6524001B8CD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11A6D6E21AAF6524001B8CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11A6D6E31AAF6524001B8CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11A6D6E51AAF6524001B8CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HPFastTouchButtonObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11A6D6E61AAF6524001B8CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HPFastTouchButtonObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		11A6D6E81AAF6524001B8CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HPFastTouchButtonObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPFastTouchButtonObjC.app/HPFastTouchButtonObjC";
+			};
+			name = Debug;
+		};
+		11A6D6E91AAF6524001B8CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HPFastTouchButtonObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPFastTouchButtonObjC.app/HPFastTouchButtonObjC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11A6D6BC1AAF6523001B8CD4 /* Build configuration list for PBXProject "HPFastTouchButtonObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A6D6E21AAF6524001B8CD4 /* Debug */,
+				11A6D6E31AAF6524001B8CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A6D6E41AAF6524001B8CD4 /* Build configuration list for PBXNativeTarget "HPFastTouchButtonObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A6D6E51AAF6524001B8CD4 /* Debug */,
+				11A6D6E61AAF6524001B8CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A6D6E71AAF6524001B8CD4 /* Build configuration list for PBXNativeTarget "HPFastTouchButtonObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A6D6E81AAF6524001B8CD4 /* Debug */,
+				11A6D6E91AAF6524001B8CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11A6D6B91AAF6523001B8CD4 /* Project object */;
+}
